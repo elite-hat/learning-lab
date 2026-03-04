@@ -18,7 +18,7 @@ while i == 0:
         cmd = input(">")
     elif cmd == "stop":
         if start == True:
-            start = False
+            start = False#
             print("Car stopped.")
         else:
             print("Car is already stopped.")
