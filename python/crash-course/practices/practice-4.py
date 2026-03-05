@@ -1,5 +1,4 @@
 # TYPE CONVERSION
 
-birthYear = input("Birth Year")
-
-age = birth year
+obtainedMarks = input("Obtained Mark: ")
+totalMarks = input("Total Marks: ")
