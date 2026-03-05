@@ -11,3 +11,12 @@ for number in input:
     else:
         output.remove(number)
 print(output)
+
+# SOLUTION
+
+input = [2, 2, 4, 6, 3, 4, 6, 1]
+uniques = []
+for number in input:
+    if number not in uniques:
+        uniques.append(number)
+print(uniques)
