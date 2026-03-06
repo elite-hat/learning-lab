@@ -18,7 +18,7 @@ print(output)
 
 # SOLUTION
 
-input = input("Phone: ")
+phone = input("Phone: ")
 digits_mapping = {
     "1": "One",
     "2": "Two",
