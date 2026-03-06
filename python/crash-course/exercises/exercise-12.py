@@ -1,4 +1,4 @@
-phone = input("Phone: ")
+input = input("Phone: ")
 digitDictionary = {
     "0": "Zero",
     "1": "One",
@@ -12,7 +12,20 @@ digitDictionary = {
     "9": "Nine"
 }
 output = ""
-for digits in phone:
+for digits in input:
     output += digitDictionary[digits] + " "
 print(output)
 
+# SOLUTION
+
+input = input("Phone: ")
+digits_mapping = {
+    "1": "One",
+    "2": "Two",
+    "3": "Three",
+    "4": "Four"
+}
+output = ""
+for ch in phone:
+    output += digits_mapping.get(ch, "!")
+print(output)
