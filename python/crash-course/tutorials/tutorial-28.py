@@ -4,4 +4,4 @@ try:
     age = int(input("Age: "))
     print(age)
 except ValueError:
-    print("Unvalid Error")
+    print("Invalid Value")
