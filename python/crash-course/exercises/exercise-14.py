@@ -4,3 +4,4 @@ class Person:
 
 person1 = Person()
 person1.name = input('Uncle')
+person1.talk()
