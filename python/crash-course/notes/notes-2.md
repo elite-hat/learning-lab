@@ -44,7 +44,9 @@ These are the options one can perofrm on points.
 
 We will start by defining a class using `class` keyword.Then, we will give our class a name.
 
-`class Point`
+```python
+class Point:
+```
 
 We capitalize the first letter of each word in this. This method is known as **Pascal**.
 In this case we only have a single word, but let suppose we have multiple words, then we will use PascalCase. e.g `class EmailClient`.
