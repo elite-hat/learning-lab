@@ -13,13 +13,15 @@ print('Please, guess a number. (You have 3 lives)')
 lives = 3
 while lives > 0:
     user = int(input('> '))
-    if user > n1 and user < n2:
+    if user >= n1 and user <= n2:
         if user == computer:
             print(f'Congratulations!!! {user} is a correct number.')
+            break
         else:
             lives -= 1
             print(f'Sorry! {user} is not the correct number, you have {lives} live(s) remaining.')
     else:
         print('Wrong Input')
 else:
-    print('Sorry, you have no lives left')
+    print('Sorry, you have no lives left.')
+    print(f'The correct answer is {computer}.')
