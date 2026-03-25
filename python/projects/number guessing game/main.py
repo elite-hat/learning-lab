@@ -7,7 +7,7 @@ n1 = int(input('Starting number: '))
 n2 = int(input('Ending number: '))
 print('Computer is guessing a number...')
 computer = random.randint(n1, n2)
-time.sleep(2)
+time.sleep(1)
 print('Done, Computer has choosen a number.')
 print('Please, guess a number. (You have 3 lives)')
 lives = 3
