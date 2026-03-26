@@ -9,4 +9,4 @@ greet_user(last_name = "Smith", first_name = "John")
 print("Finish")
 
 # prefer positional arguments
-# if both types of arguments, forst positional
+# if both types of arguments, first positional
