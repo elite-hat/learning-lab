@@ -59,3 +59,8 @@ It is known as Pascal naming convention. It comes from the old Pascal language.
 `classPoint:` colon is used to define a block in Python.
 
 In this block, we are gonna define all the methods (functions) that belong to Point.
+
+```python
+class Point:
+    def move(self)
+```
