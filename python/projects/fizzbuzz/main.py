@@ -1,7 +1,10 @@
 title = "fizz buzz"
 print(title.upper())
-i = 0
-while i < 100:
+print("Enter a range of numbers.")
+n1 = int(input("Start:"))
+n2 = int(input("End:"))
+i = n1
+while i < n2:
     i += 1
     if i % 3 == 0 and i % 5 == 0:
         print("FizzBuzz")
