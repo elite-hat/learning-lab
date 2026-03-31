@@ -20,7 +20,9 @@ wins = {
 print("\nMoves:")
 print("1. rock\n2. paper\n3. scissor")
 
-while True:
+lives = 3
+
+while lives > 0:
     print("\nComputer is choosing a move.")
     time.sleep(1)
     computerChoice = random.randint(1, 3)
@@ -39,5 +41,7 @@ while True:
                 print("You Win!")
             else:
                 print("You lost!")
+                lives -= 1
     else:
         print("Invalid Input")
+print(f"Sorry you have {lives} remaining.")
