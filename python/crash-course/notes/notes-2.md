@@ -177,3 +177,19 @@ cd python main.py
 10
 20
 ```
+
+#### Creating another object:
+
+Let's name it: `point2`
+
+Once again the same creation method.
+
+Now, this object `point2` is completely different from `point1`.
+
+If we print point2.x we will get an error because there is no attribute of point2 called `x`.
+
+## Recap:
+
+1. We use `class` to define a new type.
+2. These types can have methods that we define in the body of class.    (Take it as blueprint or template)
+3. They can also have attributes that we can set anywhere in our program
