@@ -1,3 +1,3 @@
 import openpyxl as xl
 
-xl.load_workbook("transactions.xlsx")
+wb = xl.load_workbook("transactions.xlsx")
