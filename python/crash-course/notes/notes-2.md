@@ -42,7 +42,7 @@ When we type `.` after list name we get multiple methods i.e. `append()` or `cle
 Now similar to this we are gonna create a new type: **Point**
 
 It gonna have methods like `move()`, `draw()`, `get_distance()`, etc.
-These are the options one can perofrm on points.
+These are the options one can perform on points.
 
 ### How to do this?
 
@@ -56,7 +56,7 @@ We capitalize the first letter of each word in this. This method is known as **P
 In this case we only have a single word, but let suppose we have multiple words, then we will use PascalCase. e.g `class EmailClient`.
 It is known as Pascal naming convention. It comes from the old Pascal language.
 
-`classPoint:` colon is used to define a block in Python.
+`class Point:` colon is used to define a block in Python.
 
 In this block, we are gonna define all the methods (functions) that belong to Point.
 
