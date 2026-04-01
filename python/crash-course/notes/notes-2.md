@@ -104,4 +104,26 @@ A class simply defines a blueprint or template for creating templates.
 While objects are the actual instances based on that template.
 
 So we could have tens of hundreds of points on the screen using tens of hundreds of objects of that class.
-All of these (tens of hundreds of) objects will have methods we define in class template
+All of these (tens of hundreds of) objects will have methods we define in class template.
+
+### Creating an Object
+
+To create an object we type the name of our class (`Point` in this case.) and then call it like a function.
+
+```python
+Point()
+```
+
+This creates a new object, and returns it.
+
+We can store that object in a variable.
+Let's name that variable: `point1`
+
+```python
+point1 = Point()
+```
+
+Now when we use `.` operator after the name of our variable holding an object. We get the methods defined for it.
+
+Some of these methods are defined by us.
+But some other methods we didn't define still show, these are called magic methods, we will come to them later.
