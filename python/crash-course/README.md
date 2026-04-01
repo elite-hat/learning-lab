@@ -38,3 +38,4 @@ Tutorials:
 29. Comments
 30. Classes
 31. Constructors
+32. Inheritance
