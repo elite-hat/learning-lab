@@ -127,3 +127,53 @@ Now when we use `.` operator after the name of our variable holding an object. W
 
 Some of these methods are defined by us.
 But some other methods we didn't define still show, these are called magic methods, we will come to them later.
+
+Now let's called `draw()` method of our point1 object. We defined it in Point Class.
+
+```python
+point1 = Point()
+point1.draw()
+```
+
+#### Output:
+
+```bash
+cd python main.py
+
+draw
+```
+
+
+### Attributes
+
+Apart from methods, these objects can also have attributes.
+
+**Attribute:** It is like a variable that belong to a particular object.
+
+#### Creating an Attribute:
+
+For Example:
+
+After we define `point1`
+
+We can set:
+
+```python
+point1 = Point()
+point1.x = 10
+point1.y = 20
+
+print(point1.x)
+print(point1.y)
+```
+
+So the x coordinate of point 1 is 10 and the x coordinate of point 2 is 20.
+
+#### Output:
+
+```bash
+cd python main.py
+
+10
+20
+```
