@@ -64,3 +64,44 @@ In this block, we are gonna define all the methods (functions) that belong to Po
 class Point:
     def move(self)
 ```
+
+As soon as we type `(` open parentheses in PyCharm, `self` is automatically written in ().
+
+**self:** This is a special keyword. We will talk about it shortly.
+
+In this method let's `print(move)` on the terminal.
+
+```python
+class Point:
+    def move(self):
+        print("move")
+```
+
+Now let's define another method `draw()`:
+
+```python
+class Point:
+    def move(self):
+        print("move")
+
+    def draw(self):
+        print("draw")
+```
+
+Now we are done with our Point class.
+
+We need to add two line breaks.
+
+**Recap**: In this Class we defined a new type, in this type, we defined two methods `move`, and `draw`.
+
+## Usage of Class: `Point`
+
+Within this new type (`Point`) we can create new objects.
+
+**Object:** It is a new instance of class.
+
+A class simply defines a blueprint or template for creating templates.
+While objects are the actual instances based on that template.
+
+So we could have tens of hundreds of points on the screen using tens of hundreds of objects of that class.
+All of these (tens of hundreds of) objects will have methods we define in class template
