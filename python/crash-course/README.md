@@ -40,3 +40,5 @@ Tutorials:
 31. Constructors
 32. Inheritance
 33. Modules
+34. Packages
+35. Generating Random Values
