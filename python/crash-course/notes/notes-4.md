@@ -9,3 +9,15 @@ So, you don't have to write all the code by yourself.|
 A lot of them are still in development.
 
 In this tutorial, I'm gonna show you how to install packages.
+
+## How to install Packages?
+
+Search: **openpyxl**
+Copy the command: `pip install openpyxl`
+Paste it into the terminal.
+
+And your package is installed.
+
+## how to use it?
+
+You can use it modules simply as you use the modules written in by you in your own package.
