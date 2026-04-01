@@ -39,3 +39,4 @@ Tutorials:
 30. Classes
 31. Constructors
 32. Inheritance
+33. Modules
