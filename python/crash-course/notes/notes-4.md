@@ -20,4 +20,4 @@ And your package is installed.
 
 ## how to use it?
 
-You can use it modules simply as you use the modules written in by you in your own package.
+You can use its modules simply as you use the modules written in by you in your own package.
