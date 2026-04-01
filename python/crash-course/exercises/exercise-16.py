@@ -11,3 +11,14 @@ class Dice:
 dice = Dice()
 rollResult = dice.roll()
 print(rollResult)
+
+# Solution
+
+# class Dice:
+#     def roll(self):
+#         import random
+#         first = random.randint(1, 6)
+#         second = random.randint(1, 6)
+#         return first, second
+# dice = Dice()
+# (dice.roll())
