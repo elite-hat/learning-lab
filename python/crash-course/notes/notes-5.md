@@ -64,3 +64,30 @@ That was the very basic example. It has many other applications:
 7. Evaluate & Improve (We evaluate our prredictions, measure there accuracy, and get back to our model and either select a different algorithm for more accurate result for kind of problem we're trying to solve, OR finetune the parameters of our models, so each algorithm has parameters, we can modify to optimize the accuracy.)
 
 These are the high level steps used for Machine Learning.
+
+## Libraries:
+
+Make sure you look at the popular Python libraries we use for Python Machine Learning Projects.
+
+### Numpy
+
+- Most Popular  (Very Very Popular infact)
+- It provides a multi-dimensional Array
+
+### Pandas
+
+- Data Analysis Library
+- It provides a concept called Data ______
+- A Data ______ is a two dimensional data structure, similar to an excel spreadhseet.
+- In a Data ______ we have rows & columns ad we can select data accordingly.
+- Very popular in Machine Learning & Data Science Projects.
+
+# MatPlotLib
+
+- Two dimensional plotting library
+- Used for creating blocks
+
+# Sci-kit Learn
+
+- One of the most popular Machine Learning Library
+- It provides most common algorithms (e.g. decision trees, neural networks, etc.)
