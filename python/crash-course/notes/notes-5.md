@@ -45,3 +45,22 @@ That was the very basic example. It has many other applications:
 - Vision Processing
 - Forecasting Stock Market / Weather
 
+## Machine Learning in Action
+
+### Steps:
+
+1. Import the data (usually comes in the form of `*.csv`, known as database, with a lot of data.)
+
+2. Clean the Data (it involves the modification of duplicated, incomplete or wrong data.) (If data is in the form of text we have to convert it into numerical value.) (This step totally depends upon kind of data you're working on.)
+
+3. Split data into Training/Test Sets (divide your data about 80% for training and 20% for testing) (testing is so important)
+
+4. Creating a Model (Selecting an algorithm to analyze the data. they're so many machine learning algorithms out there (e.g. decision trees, neural networks, etc.) each algorithm has pros & cons in accuracy and performance. So the algorithm you choose depends upon the type of problem you want to solve and the type of data.) (Good News: "You don't have to explicitly program an algorithm.) (There are a lot of libraries out there, that mobile this algorithm.) (One of the most popular library is the one we are gonna learn in this tutorial.)
+
+5. Train the Model (we feed our training data, our model than looks for the patterns in our data.)
+
+6. Make Predictions (next we ask our model to make predictions.) (Back to the example of cats & dogs, Ask a model, "Is this a cat or dog?", and a model will make a prediction.) (prediction is not always accurate. It's very likely your predictions are inaccurate.)
+
+7. Evaluate & Improve (We evaluate our prredictions, measure there accuracy, and get back to our model and either select a different algorithm for more accurate result for kind of problem we're trying to solve, OR finetune the parameters of our models, so each algorithm has parameters, we can modify to optimize the accuracy.)
+
+These are the high level steps used for Machine Learning.
