@@ -82,12 +82,12 @@ Make sure you look at the popular Python libraries we use for Python Machine Lea
 - In a Data ______ we have rows & columns ad we can select data accordingly.
 - Very popular in Machine Learning & Data Science Projects.
 
-# MatPlotLib
+### MatPlotLib
 
 - Two dimensional plotting library
 - Used for creating blocks
 
-# Sci-kit Learn
+### Sci-kit Learn
 
 - One of the most popular Machine Learning Library
 - It provides most common algorithms (e.g. decision trees, neural networks, etc.)
