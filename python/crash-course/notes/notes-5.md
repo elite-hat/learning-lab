@@ -91,3 +91,10 @@ Make sure you look at the popular Python libraries we use for Python Machine Lea
 
 - One of the most popular Machine Learning Library
 - It provides most common algorithms (e.g. decision trees, neural networks, etc.)
+
+## Tools:
+
+### Anaconda
+
+- It includes everything you need
+- It installs Jupyter, Numpy, and other popular libraries.
