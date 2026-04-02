@@ -1,6 +1,6 @@
 # Machine Learning
 
-## What is Machine Learning?
+## Introduction
 
 In this section, you are gonna learn about **Machine Learning**, which is the subset of **Artificial Intelligence**.
 
