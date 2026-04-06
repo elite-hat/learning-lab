@@ -1,8 +1,7 @@
 n = 16
 count = 0
-limit = 3
 
-while count < limit:
+while count < 0:
     guess = int(input('Guessed Number: '))
     count += 1
     if guess == n:
