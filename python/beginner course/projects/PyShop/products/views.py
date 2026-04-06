@@ -5,3 +5,6 @@ from django.http import HttpResponse
 
 def index(request):
     return HttpResponse("Hello World")
+
+def new_product(request):
+    return HttpResponse("A new product")
