@@ -29,10 +29,12 @@ def square_find(num):
 def cube_find(num):
     return num ** 3
 
-n = 0
+n = 2
 print(zero_check(n))
 print(factor_check(n))
 print(even_check(n))
 print(prime_check(n))
 print(square_find(n))
 print(cube_find(n))
+
+# TODO: Zero finding.
