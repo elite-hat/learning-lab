@@ -6,7 +6,7 @@ from .models import Product
 
 def index(request):
     products = Product.objects.all()
-    return render(request, "index.html")
+    return render(request, "index.html", {"products":products})
 
 def new_product(request):
     return HttpResponse("A new product")
