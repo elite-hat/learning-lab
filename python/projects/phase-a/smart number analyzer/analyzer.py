@@ -1,9 +1,3 @@
-def zero_check(num):
-    if num == 0:
-        return "Number is Zero."
-    else:
-        pass
-
 def factor_check(num):
     factors = []
     for n in range(1, num+1):
@@ -28,13 +22,3 @@ def square_find(num):
 
 def cube_find(num):
     return num ** 3
-
-n = 2
-print(zero_check(n))
-print(factor_check(n))
-print(even_check(n))
-print(prime_check(n))
-print(square_find(n))
-print(cube_find(n))
-
-# TODO: Zero finding.
