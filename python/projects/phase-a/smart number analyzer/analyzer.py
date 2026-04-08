@@ -1,24 +1,24 @@
 def factor_check(num):
+    global factors
     factors = []
     for n in range(1, num+1):
         if num % n == 0:
             factors.append(n)
-    return factors
+    print("Factors:")
+    for factor in factors:
+        print(factor)
 
 def even_check(num):
     if num % 2 == 0:
-        return True
+        print(f"{num} is Even.")
     else:
-        return False
+        print(f"{num} is Odd.")
 
 def prime_check(num):
-    if len(factor_check(num)) > 2:
-        return False
+    if len(factors) > 2:
+        print(f"{num} is not Prime.")
     else:
-        return True
+        print(f"{num} is Prime.")
     
 def square_find(num):
-    return num ** 2
-
-def cube_find(num):
-    return num ** 3
+    print(f"{num} ^ 2 = {num**2}")
