@@ -1,36 +1,25 @@
-def factor_check(num):
-    global factors
-    factors = []
-    for n in range(1, num+1):
-        if num % n == 0:
-            factors.append(n)
-    print("Factors:")
-    for factor in factors:
-        print(factor)
-
-def even_check(num):
-    if num % 2 == 0:
-        print(f"{num} is Even.")
+def zero_check(n):
+    if n == 0:
+        print(f"{n} is Zero.")
     else:
-        print(f"{num} is Odd.")
-
-def prime_check(num):
-    if len(factors) > 2:
-        print(f"{num} is not Prime.")
+        print(f"{n} is not Zero.")
+def negative_check(n):
+    if n < 0:
+        print(f"{n} is Negative.")
     else:
-        print(f"{num} is Prime.")
-    
-def square_find(num):
-    print(f"{num} ^ 2 = {num**2}")
-
-def report(num):
-    if num == 0:
-        print("Number is Zero.")
+        print(f"{n} is Positive.")
+def even_check(n):
+    if n % 2 == 0:
+        print(f"{n} is Even.")
     else:
-        factor_check(num)
-        print("---")
-        even_check(num)
-        print("---")
-        prime_check(num)
-        print("---")
-        square_find(num)
+        print(f"{n} is Odd.")
+def square_check(n):
+    for number in range(1, n+1):
+        if number * number == n:
+            print(f"{n} is a perfect square of {number}.")
+
+def report(n):
+    zero_check(n)
+    negative_check(n)
+    even_check(n)
+    square_check(n)

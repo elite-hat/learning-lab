@@ -1,5 +1,5 @@
-from process import report
+import process
 
 n = int(input("Enter a number: "))
 
-report(n)
+process.report(n)
