@@ -22,3 +22,15 @@ def prime_check(num):
     
 def square_find(num):
     print(f"{num} ^ 2 = {num**2}")
+
+def report(num):
+    if num == 0:
+        print("Number is Zero.")
+    else:
+        factor_check(num)
+        print("---")
+        even_check(num)
+        print("---")
+        prime_check(num)
+        print("---")
+        square_find(num)
