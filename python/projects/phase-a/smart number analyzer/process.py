@@ -43,20 +43,6 @@ def palindrome_check(int_n):
         return "Palindrome"
     else:
         return "not Palindrome"
-    
-# def report(n):
-#     try:
-#         print("\nREPORT")
-#         print(f"\nNumber: {n}\n")
-#         print(f"{n} is {integer_check(n)}")
-#         print(f"{n} is {even_check(n)}")
-#         print(f"{n} is {square_check(n)}")
-#         print(f"{n} is {prime_check(n)}")
-#         print(f"{n} is {palindrome_check(n)}")
-#         print(f"{n} has {factors_list(n)}")
-#         print("\n")
-#     except ValueError:
-#         print("Invalid Input")
 
 def results(n):
     results = {
