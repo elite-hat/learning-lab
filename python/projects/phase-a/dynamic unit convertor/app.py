@@ -33,3 +33,7 @@ while True:
             print("Invalid Value")
     except:
         print("Invalid Value")
+
+operation = [category, option]
+
+print(operation)
