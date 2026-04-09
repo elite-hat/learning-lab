@@ -19,10 +19,9 @@ categories = {
     3 : temperature_options
 }
 
-def display():
+def display(category_id):
     sr = 0
-    for i in categories:
-        category = categories[i]
-        for j in category:
-            sr += 1
-            print(f"{sr}. {category[j]}")
+    category = categories[category_id]
+    for j in category:
+        sr += 1
+        print(f"{sr}. {category[j]}")
