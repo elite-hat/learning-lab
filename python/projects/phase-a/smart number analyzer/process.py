@@ -18,6 +18,7 @@ def square_check(n):
         if number * number == n:
             print(f"{n} is a perfect square of {number}.")
 
+
 def report(n):
     zero_check(n)
     negative_check(n)
