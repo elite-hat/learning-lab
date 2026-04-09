@@ -44,16 +44,36 @@ def palindrome_check(int_n):
     else:
         return "not Palindrome"
     
+# def report(n):
+#     try:
+#         print("\nREPORT")
+#         print(f"\nNumber: {n}\n")
+#         print(f"{n} is {integer_check(n)}")
+#         print(f"{n} is {even_check(n)}")
+#         print(f"{n} is {square_check(n)}")
+#         print(f"{n} is {prime_check(n)}")
+#         print(f"{n} is {palindrome_check(n)}")
+#         print(f"{n} has {factors_list(n)}")
+#         print("\n")
+#     except ValueError:
+#         print("Invalid Input")
+
+def results(n):
+    results = {
+        "integer" : print(f"{n} is {integer_check(n)}"),
+        "even" : print(f"{n} is {even_check(n)}"),
+        "square" : print(f"{n} is {square_check(n)}"),
+        "prime" : print(f"{n} is {prime_check(n)}"),
+        "palindrome" : print(f"{n} is {palindrome_check(n)}"),
+        "factors" : print(f"{n} has {factors_list(n)}")
+    }
+    return results
+
 def report(n):
     try:
         print("\nREPORT")
         print(f"\nNumber: {n}\n")
-        print(f"{n} is {integer_check(n)}")
-        print(f"{n} is {even_check(n)}")
-        print(f"{n} is {square_check(n)}")
-        print(f"{n} is {prime_check(n)}")
-        print(f"{n} is {palindrome_check(n)}")
-        print(f"{n} has {factors_list(n)}")
+        results(n)
         print("\n")
-    except:
-        print("Error")
+    except ValueError:
+        print("Invalid Input")
