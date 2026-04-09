@@ -22,5 +22,3 @@ def display(option_category):
     for option in categories[option_category]:
         i += 1
         print(f"{i}. {option}")
-
-display(3)
