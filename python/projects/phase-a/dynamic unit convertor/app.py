@@ -1,12 +1,14 @@
 
 print("DYNAMIC UNIT CONVERTOR")
 
-categories = ["length", "weight", "temperature"]
+categories = {
+    1 : "length",
+    2 : "weight",
+    3 : "temperature"
+}
 
-i = 0
-for category in categories:
-    i += 1
-    print(f"{i}. {category}")
+for i in categories:
+    print(f"{i}. {categories[i]}")
 
 while True:
     try:
@@ -17,4 +19,3 @@ while True:
             print("Invalid Value")
     except:
         print("Invalid Value")
-
