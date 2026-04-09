@@ -1,26 +1,59 @@
-def zero_check(n):
-    if n == 0:
-        print(f"{n} is Zero.")
+def integer_check(n):
+    if n > 0:
+        return "Positive"
+    elif n < 0:
+        return "Positive"
     else:
-        print(f"{n} is not Zero.")
-def negative_check(n):
-    if n < 0:
-        print(f"{n} is Negative.")
-    else:
-        print(f"{n} is Positive.")
+        return "Zero"
+    
 def even_check(n):
     if n % 2 == 0:
-        print(f"{n} is Even.")
+        return "Even"
     else:
-        print(f"{n} is Odd.")
+        return "Odd"
+    
 def square_check(n):
-    for number in range(1, n+1):
-        if number * number == n:
-            print(f"{n} is a perfect square of {number}.")
+    import math
+    root = int(math.sqrt(n))
+    if root*root == n:
+        return f"Perfect square of {root}"
+    else:
+        return "not Perfect Square"
+    
+def factors_list(n):
+    factors = []
+    for i in range(1, n+1):
+        if n % i == 0:
+            factors.append(i)
+    return f"{len(factors)} factors = {factors}"
 
-
+def prime_check(n):
+    factors = []
+    for i in range(1, n+1):
+        if n % i == 0:
+            factors.append(i)
+    if len(factors) <= 2:
+        return "Prime"
+    else:
+        return "not Prime"
+    
+def palindrome_check(int_n):
+    str_n = str(int_n)
+    if str_n == str_n[::-1]:
+        return "Palindrome"
+    else:
+        return "not Palindrome"
+    
 def report(n):
-    zero_check(n)
-    negative_check(n)
-    even_check(n)
-    square_check(n)
+    try:
+        print("\nREPORT")
+        print(f"\nNumber: {n}\n")
+        print(f"{n} is {integer_check(n)}")
+        print(f"{n} is {even_check(n)}")
+        print(f"{n} is {square_check(n)}")
+        print(f"{n} is {prime_check(n)}")
+        print(f"{n} is {palindrome_check(n)}")
+        print(f"{n} has {factors_list(n)}")
+        print("\n")
+    except:
+        print("Error")

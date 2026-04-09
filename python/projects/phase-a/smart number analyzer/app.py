@@ -1,6 +1,8 @@
 import process
 
-n = int(input("Enter a number: "))
+print("\nSMART NUMBER ANALYZER")
+
+n = int(input("\nEnter a number: "))
 
 process.report(n)
 
