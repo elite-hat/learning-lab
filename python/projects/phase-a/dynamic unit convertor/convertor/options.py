@@ -4,10 +4,23 @@ def length():
 
 def weight():
     options = ["kilograms to pounds", "pounds to kilograms"]
-    for option in options:
-        return option
+    return options
 
 def temperature():
     options = ["centigrade to fahrenheit", "fahrenheit to centigrade"]
-    for option in options:
-        return option
+    return options
+
+categories = {
+    1 : length(),
+    2 : weight(),
+    3 : temperature()
+}
+
+def display(option_category):
+    print("OPTIONS:")
+    i = 0
+    for option in categories[option_category]:
+        i += 1
+        print(f"{i}. {option}")
+
+display(3)

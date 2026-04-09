@@ -20,3 +20,5 @@ while True:
             print("Invalid Value")
     except:
         print("Invalid Value")
+
+options.display(category)
