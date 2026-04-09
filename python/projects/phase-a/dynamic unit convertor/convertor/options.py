@@ -20,8 +20,12 @@ categories = {
 }
 
 def display(category_id):
+    global sr
     sr = 0
     category = categories[category_id]
     for j in category:
         sr += 1
         print(f"{sr}. {category[j]}")
+
+def number_of_options():
+    return sr

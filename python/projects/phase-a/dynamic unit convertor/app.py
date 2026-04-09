@@ -23,3 +23,13 @@ while True:
         print("Invalid Value")
 
 options.display(category)
+
+while True:
+    try:
+        option = int(input("Pick an Option: "))
+        if option in range(1, options.number_of_options()+1):
+            break
+        else:
+            print("Invalid Value")
+    except:
+        print("Invalid Value")
