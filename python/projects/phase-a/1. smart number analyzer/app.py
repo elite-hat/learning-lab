@@ -1,10 +1,10 @@
-import process
+from reporter import process
 
 print("\nSMART NUMBER ANALYZER")
 
 n = int(input("\nEnter a number: "))
 
-process.report(n)
+process.display(n)
 
 # Here’s a precise, no-fluff summary of what you need to improve for Project A1:
 
