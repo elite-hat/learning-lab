@@ -55,7 +55,7 @@ def results(n):
     }
     return results
 
-def display(n):
+def report(n):
     try:
         print("\nREPORT")
         print(f"\nNumber: {n}\n")
