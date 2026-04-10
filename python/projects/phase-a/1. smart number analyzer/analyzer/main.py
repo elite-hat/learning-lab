@@ -1,3 +1,5 @@
+import math
+
 def integer_check(n):
     if n > 0:
         return "Positive"
@@ -13,29 +15,42 @@ def even_check(n):
         return "Odd"
     
 def square_check(n):
-    import math
-    root = int(math.sqrt(n))
-    if root*root == n:
-        return f"Perfect square of {root}"
-    else:
+    if n == 1 or n <= 0:
         return "not Perfect Square"
+    else:
+        root = int(math.sqrt(n))
+        if root*root == n:
+            return f"Perfect square of {root}"
+        else:
+            return "not Perfect Square"
     
 def factors_list(n):
     factors = []
-    for i in range(1, n+1):
-        if n % i == 0:
-            factors.append(i)
+    if n > 0:
+        for i in range(1, n+1):
+            if n % i == 0:
+                factors.append(i)
+    else:
+        if n < 0:
+            abs_n = abs(n)
+            for i in range(1, abs_n+1):
+                if abs_n % i == 0:
+                    factors.append(-i)
     return f"{len(factors)} factors = {factors}"
 
+
 def prime_check(n):
-    factors = []
-    for i in range(1, n+1):
-        if n % i == 0:
-            factors.append(i)
-    if len(factors) <= 2:
-        return "Prime"
-    else:
+    if n <= 1:
         return "not Prime"
+    else:
+        factors = []
+        for i in range(1, n+1):
+            if n % i == 0:
+                factors.append(i)
+        if len(factors) <= 2:
+            return "Prime"
+        else:
+            return "not Prime"
     
 def palindrome_check(int_n):
     str_n = str(int_n)
