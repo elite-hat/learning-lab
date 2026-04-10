@@ -2,9 +2,11 @@ from analyzer.main import report
 
 print("\nSMART NUMBER ANALYZER")
 
-n = int(input("\nEnter a number: "))
-
-report(n)
+try:
+    n = int(input("\nEnter a number: "))
+    report(n)
+except:
+    print("Error")
 
 # Here’s a precise, no-fluff summary of what you need to improve for Project A1:
 
