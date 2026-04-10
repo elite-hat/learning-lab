@@ -1,5 +1,5 @@
 from convertor import options
-from convertor import process
+from convertor.main import convert
 
 print("DYNAMIC UNIT CONVERTOR")
 
@@ -36,6 +36,6 @@ while True:
 
 try:
     user_input = float(input(f"Enter a value to convert: "))
-    print(f"Result: {process.convert(user_input, category, option)}")
+    print(f"Result: {convert(user_input, category, option)}")
 except:
     print("Error")

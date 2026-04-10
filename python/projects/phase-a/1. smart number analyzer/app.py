@@ -1,4 +1,4 @@
-from reporter import process
+from process import
 
 print("\nSMART NUMBER ANALYZER")
 
