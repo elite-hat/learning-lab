@@ -19,6 +19,15 @@ categories = {
     3 : temperature_options
 }
 
+units = {
+    1 : "meters",
+    2 : "yards",
+    3 : "kilograms",
+    4 : "pounds",
+    5 : "centigrade",
+    6 : "fahrenheit"
+}
+
 def display(category_id):
     global sr
     sr = 0

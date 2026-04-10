@@ -34,6 +34,8 @@ while True:
     except:
         print("Invalid Value")
 
-operation = [category, option]
-
-print(operation)
+try:
+    user_input = float(input(f"Enter a value to convert: "))
+    print(f"Result: {process.convert(user_input, category, option)}")
+except:
+    print("Error")

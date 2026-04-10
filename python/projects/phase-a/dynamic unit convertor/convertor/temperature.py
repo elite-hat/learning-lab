@@ -5,5 +5,3 @@ def centigrade_to_fahrenheit(centigrade):
 def fahrenheit_to_centigrade(fahrenheit):
     centigrade = (fahrenheit - 32) * (5 / 9)
     return centigrade
-
-print(fahrenheit_to_centigrade(212))
