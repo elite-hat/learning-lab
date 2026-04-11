@@ -58,6 +58,17 @@ def palindrome_check(int_n):
         return "Palindrome"
     else:
         return "not Palindrome"
+    
+def armstrong_check(n):
+    digits = [int(d) for d in str(n)]
+    number_of_digits = len(digits)
+    result = 0
+    for digit in digits:
+        result += digit**number_of_digits
+    if result == n:
+        return "Armstrong"
+    else:
+        return "Not Armstrong"
 
 def results(n):
     results = {
@@ -66,6 +77,7 @@ def results(n):
         "square" : print(f"{n} is {square_check(n)}"),
         "prime" : print(f"{n} is {prime_check(n)}"),
         "palindrome" : print(f"{n} is {palindrome_check(n)}"),
+        "armstrong" : print(f"{n} is {armstrong_check(n)}"),
         "factors" : print(f"{n} has {factors_list(n)}")
     }
     return results
