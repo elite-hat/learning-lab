@@ -9,3 +9,5 @@ while True:
         break
     except:
         print("Error")
+
+# Edge Cases
