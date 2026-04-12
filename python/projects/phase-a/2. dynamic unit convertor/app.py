@@ -1,41 +1,43 @@
-from convertor import options
-from convertor.main import convert
+from convertor.main import process, display, category_options, unit_options, categories
 
-print("DYNAMIC UNIT CONVERTOR")
+print("\nDynamic Unit Convertor")
 
-categories = {
-    1 : "length",
-    2 : "weight",
-    3 : "temperature"
-}
-
-for i in categories:
-    print(f"{i}. {categories[i]}")
+category_options()
+print("\nEnter the category from the above. Write as it is written.")
 
 while True:
-    try:
-        category = int(input("Pick a Category: "))
-        if category in range(1, len(categories)+1):
-            break
-        else:
-            print("Invalid Value")
-    except:
-        print("Invalid Value")
+    category = input("Category: ")
+    if category in categories:
+        break
+    else:
+        print("Invalid Input")
 
-options.display(category)
-
+print("\nEnter the value to change its unit: ")
 while True:
     try:
-        option = int(input("Pick an Option: "))
-        if option in range(1, options.number_of_options()+1):
-            break
-        else:
-            print("Invalid Value")
-    except:
-        print("Invalid Value")
+        value = int(input("Value: "))
+        break
+    except ValueError:
+        print("ValueError")
 
-try:
-    user_input = float(input(f"Enter a value to convert: "))
-    print(f"Result: {convert(user_input, category, option)}")
-except:
-    print("Error")
+unit_options(category)
+print("\nEnter the unit of the value you entered.")
+while True:
+    convert_from = input("Convert From: ")
+    if convert_from in categories[category]:
+        break
+    else:
+        print("Invalid Input")
+
+unit_options(category)
+print("\nEnter the unit to convert your value.")
+while True:
+    convert_to = input("Convert To: ")
+    if convert_to in categories[category]:
+        break
+    else:
+        print("Invalid Input")
+
+process(category, convert_from, convert_to)
+
+print(display(value))
