@@ -4,6 +4,6 @@ print("\nPASSWORD STRENGTH CHECKER")
 
 print("\nEnter a Password to check its strength.")
 
-password = ("\nPassword: ")
+password = input("\nPassword: ")
 
 check(password)

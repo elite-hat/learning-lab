@@ -41,4 +41,4 @@ def check(password):
         score += 1
     if symbols_count > 1:
         score += 1
-    print(score)
+    return score
