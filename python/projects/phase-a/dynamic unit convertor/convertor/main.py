@@ -1,24 +1,25 @@
 categories = {
     "length" : {
-        "millimeters" : 1000000,
-        "meters" : 1000,
-        "kilometers" : 1
+        "millimeters" : 1000,
+        "meters" : 1,
+        "kilometers" : 1 / 1000
     },
 
     "mass" : {
         "milligrams" : 1000000,
         "grams" : 1000,
-        "kilograms" : 1
+        "kilograms" : 1,
+        "tonnes" : 1 / 1000
     },
 
     "time" : {
-        "seconds" : 86400,
-        "minutes" : 1440,
-        "hours" : 24,
-        "days" : 1,
-        "months" : 1 / 30,
-        "years" : 1 / 365,
-        "century" : 1 / 36500
+        "seconds" : 1,
+        "minutes" : 1 / 60,
+        "hours" : 1 / 3600,
+        "days" : 1 / 86400,
+        "months" : 1 / 2592000,
+        "years" : 1 / 31536000,
+        "century" : 1 / 3153600000
     }
 }
 
