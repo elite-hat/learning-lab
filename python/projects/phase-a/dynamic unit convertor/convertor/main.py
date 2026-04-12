@@ -12,9 +12,13 @@ categories = {
     },
 
     "time" : {
-        "seconds" : 3600,
-        "minutes" : 60,
-        "hours" : 1
+        "seconds" : 86400,
+        "minutes" : 1440,
+        "hours" : 24,
+        "days" : 1,
+        "months" : 1 / 30,
+        "years" : 1 / 365,
+        "century" : 1 / 36500
     }
 }
 
