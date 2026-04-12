@@ -1,6 +1,6 @@
 from convertor.main import process, display, category_options, unit_options, categories
 
-print("\nDynamic Unit Convertor")
+print("\nDYNAMIC UNIT CONVERTOR")
 
 category_options()
 print("\nEnter the category from the above. Write as it is written.")
