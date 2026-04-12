@@ -2,14 +2,18 @@ categories = {
     "length" : {
         "millimeters" : 1000,
         "meters" : 1,
-        "kilometers" : 1 / 1000
+        "kilometers" : 1 / 1000,
+        "inches" : 1 / 40,
+        "feet" : 10 / 3,
+        "yards" : 0.9144
     },
 
     "mass" : {
         "milligrams" : 1000000,
         "grams" : 1000,
         "kilograms" : 1,
-        "tonnes" : 1 / 1000
+        "tonnes" : 1 / 1000,
+        "pounds" : 2.205
     },
 
     "time" : {
