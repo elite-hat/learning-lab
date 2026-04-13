@@ -3,7 +3,7 @@ categories = {
         "millimeters" : 1000,
         "meters" : 1,
         "kilometers" : 1 / 1000,
-        "inches" : 1 / 40,
+        "inches" : 40,
         "feet" : 10 / 3,
         "yards" : 0.9144
     },
